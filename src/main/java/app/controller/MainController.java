@@ -21,6 +21,10 @@ public class MainController {
     public String getIndex() {
         return "opa";
     }
+    @GetMapping("/zaza")
+    public String getIndexF() {
+        return "first";
+    }
 
     @GetMapping("persons")
     public ResponseEntity<List<Person>> getList(){
