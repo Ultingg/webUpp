@@ -8,6 +8,12 @@ public class Application {
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
+        greetings();
+    }
+
+
+    public static void greetings(){
+        System.out.println("HELLO DOCKER I'M HERE");
     }
 
 }
