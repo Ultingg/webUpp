@@ -13,7 +13,7 @@ public class Application {
 
 
     public static void greetings(){
-        System.out.println("HELLO DOCKER I'M HERE");
+        System.out.println("HELLO DOCKER I'M HERE UPDATE");
     }
 
 }
